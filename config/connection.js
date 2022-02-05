@@ -5,4 +5,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/videosAndRespon
   useUnifiedTopology: true,
 });
 
-module.exports = connect;
+module.exports = mongoose.connect;
